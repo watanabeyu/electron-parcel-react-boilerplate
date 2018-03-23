@@ -1,0 +1,16 @@
+#header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+   > div {
+    flex: 1;
+     > a {
+      display: block;
+      padding: 10px 20px;
+      text-align: center;
+      &:hover {
+        background-color: #efefef;
+      }
+    }
+  }
+}

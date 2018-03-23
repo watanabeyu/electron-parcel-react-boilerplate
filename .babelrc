@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "app": "./"
+        }
+      }
+    ]
+  ]
+}
